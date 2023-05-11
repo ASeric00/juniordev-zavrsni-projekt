@@ -1,0 +1,54 @@
+/* Slika životinje */
+.infoDiv img,
+.udomljenDiv img {
+    width: 10em;
+    box-shadow: -10px 15px 0px var(--orange-color);
+    border-radius: 50%;
+}
+
+.infoDiv h2,
+.udomljenDiv h2 {
+    color: var(--orange-color);
+}
+
+/* Općenito oblkovanje */
+.infoDiv,
+.udomljenDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 10px 10px 10px #ccc;
+    background-color: var(--black-color);
+    border-radius: 15px;
+    margin-bottom: 5vh;
+    color: var(--white-color);
+}
+
+.infoDiv {
+    background-color: var(--black-color);
+    color: var(--white-color);
+}
+
+.udomljenDiv {
+    background-color: var(--white-color);
+    color: var(--black-color);
+}
+
+.buttonDiv button {
+    margin: auto 1em;
+}
+
+/* Filtriranje */
+.filterDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: var(--white-color);
+    box-shadow: -10px 10px var(--green-color);
+    width: 30%;
+    padding: 1.5em;
+    border-radius: 15px;
+    margin-top: 2em;
+    margin-bottom: 3em;
+}

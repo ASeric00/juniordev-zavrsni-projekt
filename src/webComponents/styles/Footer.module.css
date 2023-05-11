@@ -1,0 +1,26 @@
+.footerDiv {
+    background-color: var(--black-color);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: var(--white-color);
+    bottom: 0;
+    margin-top: 10vh;
+    border-radius: 15px 15px 0 0;
+}
+
+.footerDiv p {
+    font-weight: 700;
+}
+
+.footerDiv img {
+    width: 7em;
+    margin-left: 6.5em;
+}
+
+.iconDiv a {
+    margin: auto 1.5em;
+    font-size: 20px;
+    color: var(--orange-color);
+}

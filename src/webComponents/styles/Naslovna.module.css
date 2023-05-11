@@ -1,0 +1,103 @@
+/* Naslovna slika i tekst */
+.naslovnaDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin-bottom: 5em;
+}
+
+.naslovnaDiv img {
+    display: block;
+    width: 100%;
+    z-index: -5;
+}
+
+.naslovDiv {
+    position: absolute;
+    bottom: 4em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.naslovnaDiv h1 {
+    align-self: center;
+    text-align: center;
+    color: var(--white-color);
+    max-width: 90%;
+}
+
+.naslovnaDiv button {
+    align-self: center;
+    color: var(--white-color);
+}
+
+/* Izreka */
+.izrekaDiv {
+    text-align: center;
+    margin-top: 20vh;
+    margin-bottom: 20vh;
+}
+
+.izrekaDiv h2 {
+    font-weight: 400;
+}
+
+.izrekaDiv p {
+    font-weight: 700;
+}
+
+/* Karta grada */
+.mapaDiv img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+/* Div s informacijama o utočištu */
+.infoDiv {
+    position: absolute;
+    left: 5em;
+    background-color: var(--black-color);
+    color: white;
+    padding: 1em 1.5em;
+    border-radius: 0 0 15px 15px;
+}
+
+/* Ikone */
+.iconDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 22px;
+}
+
+.iconDiv a {
+    color: var(--orange-color);
+}
+
+/* Upiti */
+.upitiDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3em;
+}
+
+.upitiDiv h2 {
+    font-size: 30px;
+    color: var(--orange-color);
+}
+
+.upitiDiv p {
+    font-variant: small-caps;
+    margin-top: -1.5em;
+    margin-bottom: 2.5em;
+}
+
+.upitiDiv form {
+    font-variant: small-caps;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

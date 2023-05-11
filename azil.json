@@ -1,0 +1,187 @@
+{
+  "obavijesti": [
+    {
+      "naslov": "Sretan Božić",
+      "tekst": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras faucibus mauris metus, vulputate vulputate neque blandit quis. Nunc ultrices diam ligula, nec commodo purus ullamcorper id. Donec aliquet ",
+      "datum": "2023-05-09",
+      "vazno": false,
+      "id": 2
+    },
+    {
+      "naslov": "Radno vrijeme u ponedjeljak, 15.5.2023.",
+      "tekst": "Zbog edukacije djelatnika sklonište će u četvrtak 15. svibnja 2023. godine biti zatvoreno za posjetitelje od 11 do 13 sati. Zainteresirani građani taj ga dan mogu posjetiti između 15 i 17 sati.",
+      "datum": "2023-05-11",
+      "vazno": true,
+      "id": 10
+    },
+    {
+      "naslov": "Što trebam znati prije udomljavanja?",
+      "tekst": "Morate biti svjesni da se radi o živom biću koje ima svoje potrebe, a zakonski i svoja prava. Nikako ne dolazi u obzir pse držiti na lancu, morate ih adekvatno hraniti i brinuti se o njima.",
+      "datum": "2023-05-11",
+      "vazno": false,
+      "id": 11
+    },
+    {
+      "naslov": "Sretan Međunarodni dan ljubimaca",
+      "tekst": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras faucibus mauris metus, vulputate vulputate neque blandit quis. Nunc ultrices diam ligula, nec commodo purus ullamcorper id.",
+      "datum": "2023-05-11",
+      "vazno": false,
+      "id": 13
+    }
+  ],
+  "donacije": [
+    {
+      "id": 1,
+      "kategorija": "trazi",
+      "tip": "Hrana",
+      "vrijednost": 25,
+      "opis": "Suha hrana za pse - 10kg"
+    },
+    {
+      "tip": "Lijekovi",
+      "vrijednost": "5",
+      "opis": "Šamponi i kreme protiv buha",
+      "kategorija": "trazi",
+      "id": 42
+    },
+    {
+      "tip": "Hrana",
+      "vrijednost": "18",
+      "opis": "Mačja hrana - 12 kg",
+      "kategorija": "nudi",
+      "id": 43
+    },
+    {
+      "tip": "Veterinarski troškovi",
+      "vrijednost": "10",
+      "opis": "Troškovi cijepljenja mačića Axela - 20.4.2023.",
+      "kategorija": "nudi",
+      "id": 45
+    },
+    {
+      "tip": "Veterinarski troškovi",
+      "vrijednost": "20",
+      "opis": "Previjanje ranjene noge mačka Mikija",
+      "kategorija": "trazi",
+      "id": 46
+    },
+    {
+      "tip": "Hrana",
+      "vrijednost": "3",
+      "opis": "Zdrave poslastice za 2 štenca",
+      "kategorija": "donirano",
+      "id": 47
+    },
+    {
+      "tip": "Igračke",
+      "vrijednost": "6",
+      "opis": "Gumene igračke za psa Dariju - 2 komada",
+      "kategorija": "donirano",
+      "id": 48
+    },
+    {
+      "tip": "Igračke",
+      "vrijednost": "8",
+      "opis": "Mačja penjalica s dva ležaja",
+      "kategorija": "nudi",
+      "id": 49
+    }
+  ],
+  "kategorije": [
+    "donirano",
+    "trazi",
+    "nudi"
+  ],
+  "zivotinje": [
+    {
+      "id": 1,
+      "ime": "Garfield",
+      "vrsta": "mačka",
+      "cip": false,
+      "godine": 44,
+      "opis": "Voli pizzu",
+      "pregled": "2022-09-23",
+      "udomljen": true
+    },
+    {
+      "ime": "Pepa",
+      "udomljen": false,
+      "vrsta": "mačka",
+      "godine": "2",
+      "cip": false,
+      "pregled": "",
+      "opis": "Britanska dugodlaka mačka",
+      "id": 2
+    },
+    {
+      "ime": "Daria",
+      "udomljen": false,
+      "vrsta": "pas",
+      "godine": "7",
+      "cip": true,
+      "pregled": "2023-03-09",
+      "opis": "Njemački ovčar, jako pametna i mirna",
+      "id": 3
+    },
+    {
+      "ime": "Miki",
+      "udomljen": true,
+      "vrsta": "mačka",
+      "godine": "0",
+      "cip": false,
+      "pregled": "2023-05-04",
+      "opis": "Mačić star 4 mjeseca",
+      "id": 4
+    },
+    {
+      "ime": "Šapica",
+      "udomljen": false,
+      "vrsta": "pas",
+      "godine": "0",
+      "cip": true,
+      "pregled": "2023-05-09",
+      "opis": "Križani ovčar, star 6 mjeseci",
+      "id": 5
+    },
+    {
+      "ime": "Podo",
+      "udomljen": false,
+      "vrsta": "pas",
+      "godine": "2",
+      "cip": true,
+      "pregled": "",
+      "opis": "Križani terijer",
+      "id": 6
+    },
+    {
+      "ime": "Axel",
+      "udomljen": true,
+      "vrsta": "mačka",
+      "godine": "3",
+      "cip": false,
+      "pregled": "2022-12-15",
+      "opis": "",
+      "id": 7
+    }
+  ],
+  "vrste": [
+    "mačka",
+    "pas"
+  ],
+  "filtervrste": [
+    "svi",
+    "mačka",
+    "pas"
+  ],
+  "status": [
+    "svi",
+    "udomljen",
+    "nije udomljen"
+  ],
+  "tip": [
+    "Hrana",
+    "Lijekovi",
+    "Igračke",
+    "Veterinarski troškovi"
+  ]
+}

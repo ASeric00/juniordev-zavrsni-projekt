@@ -1,0 +1,15 @@
+.tableDiv {
+    width: 70%;
+    background-color: var(--black-color);
+    color: var(--white-color);
+    padding: 1em 0 1em 1.5em;
+    border-radius: 15px;
+    box-shadow: 10px 10px var(--green-color);
+
+}
+
+.tableDiv th {
+    text-align: left;
+    color: var(--orange-color);
+    font-weight: 900;
+}

@@ -1,0 +1,56 @@
+.obavijestDiv h2,
+.vaznoDiv h2 {
+    margin-top: 0.5em;
+    color: var(--orange-color);
+    align-self: flex-start;
+}
+
+.obavijestDiv small,
+.vaznoDiv small {
+    align-self: flex-start;
+}
+
+.vaznoDiv h2 {
+    color: var(--black-color);
+}
+
+/* Općenito oblikovanje za obje vrste div-a */
+.obavijestDiv,
+.vaznoDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    box-shadow: 10px 10px 10px #ccc;
+    border-radius: 15px;
+    margin-bottom: 5vh;
+    padding: 1em;
+}
+
+.obavijestDiv {
+    background-color: var(--white-color);
+    color: var(--black-color);
+}
+
+.vaznoDiv {
+    background-color: var(--orange-color);
+    color: var(--white-color);
+}
+
+/* Oznaka VAŽNO */
+.vaznoOznaka {
+    margin-top: 0.5em;
+    margin-bottom: 0;
+}
+
+/* Nova obavijest botun */
+.btnNovaObav {
+    margin-bottom: 2em;
+}
+
+/* Uklanjanje obavijesti */
+.ukloniVaznoBtn {
+    background-color: var(--white-color);
+    color: var(--black-color);
+    margin-bottom: 0.5em;
+}

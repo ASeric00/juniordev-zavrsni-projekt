@@ -1,0 +1,30 @@
+.mainDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    max-width: 100%;
+}
+
+/* Logo slika */
+.mainDiv img {
+    width: 10vw;
+}
+
+/* Nav stavke */
+.listDiv {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: static;
+}
+
+.listDiv a,
+button {
+    color: #2b2628;
+    font-variant: small-caps;
+}
+
+.listDiv li {
+    margin: 1vh 1vw;
+}
